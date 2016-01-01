@@ -1,0 +1,63 @@
+
+/*
+Theme Name: Smart Mag Child
+Theme URI: http://theme-sphere.com/
+Description: A child theme of SmartMag
+Author: ThemeSphere
+Author URI: http://theme-sphere.com
+Template: smart-mag
+Version: 1.0
+*/
+
+@import url("../smart-mag/style.css");
+
+.logo-image{
+	margin: 15px 0px;
+}
+.navigation {
+    background-color: transparent;
+    background: linear-gradient(135deg,#573e81,#133259 40%,#133259);
+}
+.navigation li:hover .mega-menu {
+    background: linear-gradient(135deg,#573e81,#133259 40%,#133259);
+}
+.navigation .mega-menu.links > li ul,.mega-menu .sub-nav,.navigation .mega-menu.links > li ul {
+    background: transparent;
+}
+.navigation li:hover > ul {
+    background: linear-gradient(135deg,#573e81,#133259 40%,#133259);
+}
+
+.main .sidebar .widgettitle, .tabbed .tabs-list {
+    text-transform: capitalize;
+    background: linear-gradient(135deg,#573e81,#133259 40%,#133259);
+    color: #efefef;
+}
+
+.main-footer {
+    background: #133259;
+}
+
+.lower-foot {
+    background: #0b1e35;
+    color: #fff;
+    font-size: 13px;
+}
+
+.main-footer .widgettitle {
+    border-bottom: 1px solid #3265A2;
+    text-transform: capitalize;
+}
+
+#comment-submit, .submit-button {
+    background: transparent;
+    text-transform: capitalize;
+    border: 2px solid #133259;
+    color: #133259;
+}
+#comment-submit:hover, .submit-button:hover {
+    background: #133259;
+    text-transform: capitalize;
+    border: 2px solid #133259;
+    color: #fff;
+}
